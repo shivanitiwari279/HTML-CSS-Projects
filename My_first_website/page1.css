@@ -1,0 +1,109 @@
+        body{
+            font-family: sans-serif;
+            line-height: 1.4;
+        }
+
+        #container{
+            max-inline-size: 600px;
+            margin-inline: auto;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .primary-navigation ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .primary-navigation a{
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .primary-navigation a:hover{
+            color:gray;
+        }
+
+        /* .primary-navigation a:visited{
+            color: black;
+        } */
+
+
+        h1{
+            text-align: center;
+            font-size: 80px;
+            line-height: 1.1;
+        }
+
+        h1 span{
+            color: rgb(74, 113, 166);
+        }
+
+        img{
+            display: block;
+            max-inline-size: 100%;
+        }
+        #h2-1{
+            color: orange;
+        }
+
+        #h2-2{
+            color: rgb(44, 140, 162);
+        }
+
+        ul{
+            list-style: circle ;
+            /* list-style-position: outside;
+            color: brown; */
+        }
+        a{
+            color: rgb(119, 162, 44);
+        }
+
+        a:hover{
+            color: blue;
+        }
+
+        a:active{
+            color: black;
+        }
+        
+        .two-column-style{
+            display: grid;
+            gap: 100px;
+            @media (width > 600px) {
+                 grid-template-columns: 1fr 1fr;
+            }
+        }
+
+       .teal-bg{
+            color: white;
+            background-color: rgb(51, 116, 162);
+            padding: 10px;
+            border: solid rgb(45, 84, 113) 5px;
+        } 
+
+        p{
+            font-size: small; 
+           
+        }
+
+        section{
+             margin-block: 70px;
+        }
+        footer{
+            padding: 1px ;
+            text-align: center;
+            background-color: rgb(51, 116, 162);
+            color: white;
+        }
+    
+        li{
+            font-size: small;
+        }
+

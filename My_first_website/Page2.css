@@ -1,0 +1,77 @@
+        .wrapper{
+            max-inline-size: 700px;
+            margin-inline: auto;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 80px;
+        }
+        h2{
+            color: orange;
+        }
+        
+        a{
+            color: rgb(119, 162, 44);
+        }
+
+        ol li::marker{
+            content:'👉';
+        }
+
+        a:visited{
+            color: purple;
+        }
+
+        a:hover{
+            color: blue;
+        }
+
+        a:active{
+            color: black;
+        }
+
+        .two-column-style{
+            display: grid;
+            gap: 80px;
+            @media (width > 600px) {
+                 grid-template-columns: 1fr 1fr;
+            }
+        }
+
+
+        .text{
+            color: white;
+            /* width: 200px;
+            position: absolute;
+            top: 46%;
+            left: 5%; */
+            font-size: medium;
+            padding: 20px;
+            border: 7px solid rgb(43, 108, 152);
+            background-image: url(image/simple-steps.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        img{
+            display: block;
+            max-inline-size: 100%;
+        }
+
+        footer{
+            text-align: center;
+            height: 40px;
+            background-color: rgb(44, 83, 167);
+            color: white;
+        }
+         #last{
+            position: relative;
+            top: 10px;
+        }
+        section{
+             margin-block: 70px;
+        }
+        h1 span{
+            color: rgb(26, 63, 116);;
+        }
