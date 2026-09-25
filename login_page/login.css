@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(231, 199, 226);
+    background-image: url(image/bg\ image.jpeg);
+}
+
+section{
+    margin-block: 30px
+}
+
+.container{
+    padding-inline: 30px;
+}
+.two-column-style{
+            display: grid;
+            gap: 80px;
+            @media (width > 600px) {
+                 grid-template-columns: 1fr 1fr;
+            }
+        }
+
+.bg-text{
+    padding: 90px;
+    text-align: start;
+   
+}
+
+h2{
+    color: gray;
+    font-weight: lighter;
+}
+
+.bg-text span{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.wrapper{
+    margin: 60px;
+    width: 500px;
+    height: 600px;
+    margin-inline: auto;
+    background-color: white;
+    border: 2px;
+    border-radius: 3%;
+    text-align: center;
+}
+
+p{
+    color: rgb(110, 110, 110);
+}
+
+.upper-part img{
+    margin-bottom: 5px;
+}
+
+.upper-part h1{
+    margin-top: 0;
+}
+
+.forget-pass{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.forget-pass label{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.forget-pass a{
+    text-decoration: none;
+}
+
+input[type="email or username"],
+input[type="password"]{
+    border-radius: 5px;
+    padding: 10px;
+    inline-size: 400px;
+}
+
+button{
+    color: white;
+    background-color: rgb(158, 35, 203);
+    margin: 10px;
+    cursor: pointer;
+    border-color: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+    inline-size: 400px;
+}
+
