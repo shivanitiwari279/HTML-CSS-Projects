@@ -77,11 +77,14 @@ p{
     text-decoration: none;
 }
 
-input[type="email or username"],
+input[type="text"],
 input[type="password"]{
-    border-radius: 5px;
-    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 12px;
     inline-size: 400px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
 button{

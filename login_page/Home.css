@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(231, 199, 226);
+    background-image: url(image/Bg\ for\ login\ page.png);
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content-box p{
+    color: rgb(9, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+#discription{
+    font-size: 25px;
+    margin: 60px;
+    padding: 1px;
+    width: 300px;
+    height: 90px;
+    margin-inline: auto;
+    background-color: rgba(224, 217, 217, 0.523);
+    border: 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Activity{
+    height: 100px;
+    margin-inline: 60px;
+    display: flex;
+    gap: 50px;
+    padding-left: 480px;
+}
+
+span{
+    padding-left: 23px;
+    font-size: 40px;
+}
+#Explore{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(254, 245, 236, 0.496);
+}
+
+#track{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(254, 245, 236, 0.496)
+}
+
+#be-best{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(254, 245, 236, 0.496)
+}

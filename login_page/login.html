@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    
     <div class="container">
 
         <main>
@@ -25,11 +26,11 @@
                         </div>
                     </section>
                     <section>
-                        <form>
+                        <form id="login-form">
                             <label>
-                                <input type="email or username" id="email or username" name="Email or Ussername" placeholder="Email or Ussername">
+                                <input type="text" id="username" name="Ussername" placeholder="Email or Ussername" required>
                                 <br><br>
-                                <input type="password" id="password" name="password" placeholder="Password">
+                                <input type="password" id="password" name="password" placeholder="Password" required>
                             </label>
                     </section>
                     <section>
@@ -37,13 +38,14 @@
                             <label>
                                 <input type="checkbox" value="remember_me" name="remember" id="remember-checkbox">Remember me
                             </label>
-                            <a href="#">Forget Password?</a>
+                            <a href="#" id="forget-password">Forget Password?</a>
                         </div>
                        
                     </section>
                     <button type="submit" class="login-button">Login ➡️</button>
 
                      </form>
+                     <p id="message"></p>
                     <section>
                         <p>Don't have an account? <a href="">Create Account</a></p>
                     </section>
@@ -53,5 +55,7 @@
         </main>
 
     </div>
+
+    <script src="login.js"></script>
 </body>
 </html>
